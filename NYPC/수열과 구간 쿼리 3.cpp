@@ -9,6 +9,7 @@ vector<int> solution(vector<int> arr, vector<vector<int>> queries) {
         int arrIndexOne = queries[i][0];
         int arrIndexTwo = queries[i][1];
         swap(arr[arrIndexOne], arr[arrIndexTwo]);
-        return arr;
-    }  
+        
+    }
+    return arr;  
 }
